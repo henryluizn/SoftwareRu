@@ -397,7 +397,7 @@ def exibicoes(estoque, receitas, refeicoes, pedidos):
         opcao = int(input())
     except ValueError:
         print('Preencha todos os campos corretamente')
-        return exibicoes(estoque, ingrediente, receitas, pedidos)
+        return exibicoes(estoque, receitas, refeicoes, pedidos)
 
     if opcao == 1:
         print('lista de itens em estoque:')
